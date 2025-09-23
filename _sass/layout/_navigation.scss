@@ -201,6 +201,11 @@
     cursor: pointer;
     z-index: 100;
   }
+  
+  .greedy-nav .visible-links .masthead__menu-item.active > a {
+    text-decoration: underline;
+    font-weight: 600; /* or bold */
+  }
 
   .visible-links {
     display: table;
@@ -210,7 +215,7 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        //font-weight: bold;
         text-wrap: wrap;
 
         a {
